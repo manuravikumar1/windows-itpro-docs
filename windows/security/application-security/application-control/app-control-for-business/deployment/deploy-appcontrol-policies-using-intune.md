@@ -84,6 +84,6 @@ The steps to use Intune's Custom OMA-URI functionality to apply the [AppLocker C
    > [!NOTE]
    > Deploying policies via the AppLocker CSP will force a reboot during OOBE.
 
-#### Removing policies
+#### Removing policies.
 
 Policies deployed through Intune via the AppLocker CSP can't be deleted through the Intune console. In order to disable App Control for Business policy enforcement, either deploy an audit-mode policy or use a script to delete the existing policy.
